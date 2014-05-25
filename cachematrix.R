@@ -25,7 +25,16 @@
 #        m
 #}
 
-## Similar structure to makeVector; for clarity, m relabelled as inv.
+
+
+
+## Similar structure to makeVector, ie: 
+#makeCacheMatrix creates a special "vector", which is really a list containing a function to
+
+#   set the value of the matrix
+#   get the value of the matrix
+#   set the value of the inverse, inv
+#   get the value of the inverse, inv
 
 makeCacheMatrix <- function(x = matrix()){
 
